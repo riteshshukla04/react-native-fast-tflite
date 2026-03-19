@@ -1,8 +1,8 @@
 <a href="https://margelo.io">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./img/banner-dark.png" />
-    <source media="(prefers-color-scheme: light)" srcset="./img/banner-light.png" />
-    <img alt="Fast TFLite" src="./img/banner-light.png" />
+    <source media="(prefers-color-scheme: dark)" srcset="./img/banner-dark.webp" />
+    <source media="(prefers-color-scheme: light)" srcset="./img/banner-light.webp" />
+    <img alt="Fast TFLite" src="./img/banner-light.webp" />
   </picture>
 </a>
 
