@@ -2,10 +2,12 @@
 
 #include <string>
 
-#ifdef ANDROID
+#if defined(ANDROID)
 #include <tflite/c/c_api.h>
-#else
+#elif defined(__APPLE__)
 #include <TensorFlowLiteC/TensorFlowLiteC.h>
+#else
+#error "Invalid Platform!"
 #endif
 
 namespace margelo::nitro::tflite {

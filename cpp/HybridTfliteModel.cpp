@@ -5,6 +5,14 @@
 #include <NitroModules/Promise.hpp>
 #include <string>
 
+#if defined(ANDROID)
+#include <tflite/c/c_api.h>
+#elif defined(__APPLE__)
+#include <TensorFlowLiteC/TensorFlowLiteC.h>
+#else
+#error "Invalid Platform!"
+#endif
+
 namespace margelo::nitro::tflite {
 
 HybridTfliteModel::HybridTfliteModel(TfLiteInterpreter* interpreter,

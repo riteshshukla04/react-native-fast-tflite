@@ -1,16 +1,16 @@
 #include "TfliteHelpers.hpp"
 
-#ifdef ANDROID
+#if defined(ANDROID)
 #include <tflite/c/c_api.h>
 #include <tflite/delegates/gpu/delegate.h>
 #include <tflite/delegates/nnapi/nnapi_delegate_c_api.h>
-#endif
-
-#ifdef __APPLE__
+#elif defined(__APPLE__)
 #include <TensorFlowLiteC/TensorFlowLiteC.h>
 #if FAST_TFLITE_ENABLE_CORE_ML
 #include <TensorFlowLiteCCoreML/TensorFlowLiteCCoreML.h>
 #endif
+#else
+#error "Invalid Platform!"
 #endif
 
 namespace margelo::nitro::tflite {
