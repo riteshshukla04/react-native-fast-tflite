@@ -1385,7 +1385,7 @@ PODS:
     - React-RCTFBReactNativeSpec
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
-  - react-native-fast-tflite (2.0.0):
+  - react-native-fast-tflite (3.0.0):
     - hermes-engine
     - NitroModules
     - RCTRequired
@@ -2216,7 +2216,7 @@ SPEC CHECKSUMS:
   React-logger: 36b1e410c0e3ebe826d6095210be858eafd2ef8c
   React-Mapbuffer: 29b7c8d8ea75fd22625d9c377f8f808b4b9a1d37
   React-microtasksnativemodule: 5ce4674970af1bb92fa528ac37ade4458bdd8b8b
-  react-native-fast-tflite: 4952859424b5fe839748f84b0d6e62c9d72bb1d7
+  react-native-fast-tflite: 760ba23d28c18fcbe54c597611dd33380e082651
   react-native-safe-area-context: a2325922b8594ddd27f98fb13437aec126be2502
   react-native-worklets-core: ac6ca44cc93388211aa7da8977227f9ef8bb1faf
   React-NativeModulesApple: e3808f0f9abcc5555d9a0e6e7da223d545cb8b8c
