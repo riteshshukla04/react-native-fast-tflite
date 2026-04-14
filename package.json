@@ -1,6 +1,6 @@
 {
   "name": "react-native-fast-tflite",
-  "version": "3.0.0-beta.0",
+  "version": "3.0.0",
   "description": "High-performance TensorFlow Lite library for React Native, built with Nitro Modules",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
